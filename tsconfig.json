@@ -1,0 +1,56 @@
+{
+  "compilerOptions": {
+    // 编译输出目标 esnext 版本
+    "target": "esnext",
+    // 采用的模块系统
+    "module": "esnext",
+    // 以严格模式解析
+    "strict": false,
+    // 指定jsx代码用于的开发环境:'preserve'
+    "jsx": "preserve",
+    // 指定是否引入tslib里的复制工具函数，默认为false
+    "importHelpers": true,
+    // 如何处理模块
+    "moduleResolution": "node",
+    // 启用装饰器
+    "experimentalDecorators": true,
+    // 对库定义文件跳过类型检查
+    "skipLibCheck": true,
+    // 通过导入内容创建命名空间，实现CommonJS和ES模块之间的互操作性
+    "esModuleInterop": true,
+    // 用来指定允许从没有默认导出的模块中默认导入
+    "allowSyntheticDefaultImports": true,
+    //socuceMap用来指定编译时是否生成.map文件
+    "sourceMap": true,
+    // 用于设置解析非相对模块名称的基本目录，相对模块不会受到baseUrl的影响
+    "baseUrl": ".",
+    // 用于指定需要包含的模块，只有在这里列出的模块的声明文件才会被加载
+    "types": ["webpack-env"],
+    "allowJs": true,
+    // 用于设置模块名到基于baseUrl的路径映射
+    "paths": {
+      "@/*": ["src/*"],
+      "src/*": ["src/*"],
+      "assets/*": ["src/assets/*"],
+      "api/*": ["src/api/*"],
+      "components/*": ["src/components/*"],
+      "common/*": ["src/components/common/*"],
+      "utils/*": ["src/utils/*"],
+      "mixins/*": ["src/mixins/*"]
+    },
+    // 编译过程中需要引入的库文件的列表
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
+  },
+  // 指定要编译的路径列表
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "tests/**/*.ts",
+    "tests/**/*.tsx",
+    "src/main.js",
+    "data/*.ts"
+  ],
+  // 表示要排除的，不编译的文件
+  "exclude": ["node_modules"]
+}
