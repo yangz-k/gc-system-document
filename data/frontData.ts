@@ -70,4 +70,11 @@ export const data = [
     url: `${defaultDir}WQDSJ.pdf`,
     type: "pdf",
   },
+  {
+    img: `${defaultDir}SYHBS.png`,
+    title: "私有化部署",
+    des: "私有化部署",
+    url: `${defaultDir}SYHBS.docx`,
+    type: "word",
+  },
 ];
