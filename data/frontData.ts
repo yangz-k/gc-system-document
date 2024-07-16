@@ -58,6 +58,13 @@ export const data = [
   },
   {
     img: ``,
+    title: "H5脱离融合器方案设计",
+    des: "评审文档",
+    url: `${defaultDir}h5JZLCSJ.pdf`,
+    type: "pdf",
+  },
+  {
+    img: ``,
     title: "H5开发流程",
     des: "开发更便捷，高效",
     url: `${defaultDir}YDDKALC.pdf`,
@@ -70,6 +77,7 @@ export const data = [
     url: `${defaultDir}WQDSJ.pdf`,
     type: "pdf",
   },
+
   {
     img: `${defaultDir}SYHBS.png`,
     title: "私有化部署",
