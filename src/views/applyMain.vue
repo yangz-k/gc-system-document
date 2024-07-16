@@ -67,6 +67,7 @@ const selectedKeys = ref<string[]>(["1"]);
     border: 1px solid #f3eaea;
     text-align: center;
     font-weight: 700;
+    font-size: 20px;
   }
 }
 </style>

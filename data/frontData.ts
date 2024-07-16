@@ -51,10 +51,10 @@ export const data = [
   },
   {
     img: `${defaultDir}h5XMGZ.png`,
-    title: "H5开发模式改造",
+    title: "H5脱离融合器改造方案",
     des: "开发更便捷，高效",
-    url: `${defaultDir}h5XMGZ.pdf`,
-    type: "pdf",
+    url: `${defaultDir}h5XMGZ.docx`,
+    type: "word",
   },
   {
     img: ``,
@@ -75,6 +75,13 @@ export const data = [
     title: "私有化部署",
     des: "私有化部署",
     url: `${defaultDir}SYHBS.docx`,
+    type: "word",
+  },
+  {
+    img: ``,
+    title: "h5对接业务平台审批流",
+    des: "h5对接业务平台审批流程",
+    url: `${defaultDir}YWPTSPL.docx`,
     type: "word",
   },
 ];
