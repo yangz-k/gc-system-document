@@ -92,4 +92,11 @@ export const data = [
     url: `${defaultDir}YWPTSPL.docx`,
     type: "word",
   },
+  {
+    img: ``,
+    title: "工作台开发流程文档",
+    des: "工作台开发流程文档",
+    url: `${defaultDir}GZTKFLC.docx`,
+    type: "word",
+  },
 ];
