@@ -92,4 +92,11 @@ export const data = [
     url: `${defaultDir}YWPTSPL.docx`,
     type: "word",
   },
+  {
+    img: `${defaultDir}WX720.png`,
+    title: "微信公众号720全景开发文档",
+    des: "小程序为入口，的开发模式",
+    url: `${defaultDir}WX720QJ.pdf`,
+    type: "pdf",
+  },
 ];
