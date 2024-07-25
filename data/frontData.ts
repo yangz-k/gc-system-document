@@ -99,4 +99,18 @@ export const data = [
     url: `${defaultDir}GZTKFLC.docx`,
     type: "word",
   },
+  {
+    img: ``,
+    title: "大屏开发流程文档",
+    des: "大屏开发流程文档",
+    url: `${defaultDir}DPKFLC.docx`,
+    type: "word",
+  },
+  {
+    img: ``,
+    title: "H5开发流程文档",
+    des: "H5开发流程文档",
+    url: `${defaultDir}H5KFLC.docx`,
+    type: "word",
+  },
 ];
