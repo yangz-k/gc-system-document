@@ -9,18 +9,54 @@ const defaultDir =
 export const data = [
   {
     img: ``,
+    title: "H5开发流程",
+    des: "开发更便捷，高效",
+    url: `${defaultDir}YDDKALC.pdf`,
+    type: "pdf",
+  },
+  {
+    img: ``,
+    title: "H5对接业务平台审批流",
+    des: "H5对接业务平台审批流程",
+    url: `${defaultDir}YWPTSPL.docx`,
+    type: "word",
+  },
+  {
+    img: `${defaultDir}h5Vant2Token.png`,
+    title: "H5项目接入vant2色彩 token体系",
+    des: "H5对接业务平台审批流程",
+    url: `${defaultDir}h5Vant2Token.docx`,
+    type: "word",
+  },
+  {
+    img: ``,
+    title: "H5基础组件库",
+    des: "H5基础组件库",
+    url: `  http://10.0.98.23/static/storybook-spMobile/index.html?path=/story/introduction--page`,
+    type: "url",
+  },
+  {
+    img: `${defaultDir}h5XMGZ.png`,
+    title: "H5脱离融合器改造方案",
+    des: "开发更便捷，高效",
+    url: `${defaultDir}h5XMGZ.docx`,
+    type: "word",
+  },
+  {
+    img: ``,
+    title: "H5脱离融合器方案设计",
+    des: "评审文档",
+    url: `${defaultDir}h5JZLCSJ.pdf`,
+    type: "pdf",
+  },
+  {
+    img: ``,
     title: "大屏基础组件库",
     des: "大屏基础组件库",
     url: `http://10.0.98.23/static/storybook-static/index.html?path=/docs/introduction--page`,
     type: "url",
   },
-  {
-    img: ``,
-    title: "移动端基础组件库",
-    des: "移动端基础组件库",
-    url: `  http://10.0.98.23/static/storybook-spMobile/index.html?path=/story/introduction--page`,
-    type: "url",
-  },
+
   {
     img: ``,
     title: "工作台工程业务组件",
@@ -49,27 +85,7 @@ export const data = [
     url: `${defaultDir}CYZLZL.docx`,
     type: "word",
   },
-  {
-    img: `${defaultDir}h5XMGZ.png`,
-    title: "H5脱离融合器改造方案",
-    des: "开发更便捷，高效",
-    url: `${defaultDir}h5XMGZ.docx`,
-    type: "word",
-  },
-  {
-    img: ``,
-    title: "H5脱离融合器方案设计",
-    des: "评审文档",
-    url: `${defaultDir}h5JZLCSJ.pdf`,
-    type: "pdf",
-  },
-  {
-    img: ``,
-    title: "H5开发流程",
-    des: "开发更便捷，高效",
-    url: `${defaultDir}YDDKALC.pdf`,
-    type: "pdf",
-  },
+
   {
     img: `${defaultDir}WQDSJ.png`,
     title: "大屏微前端架构",
@@ -85,13 +101,7 @@ export const data = [
     url: `${defaultDir}SYHBS.docx`,
     type: "word",
   },
-  {
-    img: ``,
-    title: "h5对接业务平台审批流",
-    des: "h5对接业务平台审批流程",
-    url: `${defaultDir}YWPTSPL.docx`,
-    type: "word",
-  },
+
   {
     img: `${defaultDir}WX720.png`,
     title: "微信公众号720全景开发文档",
