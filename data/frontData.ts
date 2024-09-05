@@ -50,13 +50,19 @@ export const data = [
     type: "pdf",
   },
   {
+    img: `${defaultDir}H5CJHJMQ.png`,
+    title: "H5场景化建模器",
+    des: "快速生成H5页面组装",
+    url: `http://10.0.171.230/static/gcjg_h5_modeler/index.html#/`,
+    type: "url",
+  },
+  {
     img: ``,
     title: "大屏基础组件库",
     des: "大屏基础组件库",
     url: `http://10.0.98.23/static/storybook-static/index.html?path=/docs/introduction--page`,
     type: "url",
   },
-
   {
     img: ``,
     title: "工作台工程业务组件",
