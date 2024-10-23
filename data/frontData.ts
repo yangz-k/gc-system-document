@@ -36,6 +36,13 @@ export const data = [
     type: "url",
   },
   {
+    img: ``,
+    title: "H5离线CI/CD部署改造",
+    des: "H5离线CI/CD部署改造，不在手动打包部署，需要修改对应的模块配置",
+    url: `${defaultDir}H5OFFLINE.docx`,
+    type: "word",
+  },
+  {
     img: `${defaultDir}h5XMGZ.png`,
     title: "H5脱离融合器改造方案",
     des: "开发更便捷，高效",

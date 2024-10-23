@@ -51,7 +51,7 @@ const showMore = (item: { type; url }) => {
   overflow: auto;
   background: #f3f5fb;
   .ant-card {
-    width: 228px;
+    width: 222px;
     margin: 16px;
     height: 340px;
     border: 3px solid #808de6;
